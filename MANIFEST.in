@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include superstart_rides *.css
+recursive-include superstart_rides *.csv
+recursive-include superstart_rides *.html
+recursive-include superstart_rides *.ico
+recursive-include superstart_rides *.js
+recursive-include superstart_rides *.json
+recursive-include superstart_rides *.md
+recursive-include superstart_rides *.png
+recursive-include superstart_rides *.py
+recursive-include superstart_rides *.svg
+recursive-include superstart_rides *.txt
+recursive-exclude superstart_rides *.pyc
